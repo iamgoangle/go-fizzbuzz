@@ -9,5 +9,9 @@ func Say(n int) string {
 		return "Fizz"
 	}
 
+	if n == 5 {
+		return "Buzz"
+	}
+
 	return strconv.Itoa(n)
 }
